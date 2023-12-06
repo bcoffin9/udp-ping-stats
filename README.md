@@ -15,10 +15,10 @@
 
 - Send 10 Ping Messages to the target server over UDP
 - For each message, print the RTT (Round Trip Time)
-- The ping will at most for 1 second before determining the packet lost
+- The ping will last at most for 1 second before determining the packet lost
   - The lost packet will be reported in the output
 - There will be a log printed to the console as well as an output file in the results folder
-  - The output file will be tagged with a timestamp, avg response time, and the name of the target server
+  - The output file will be tagged with a timestamp and the name of the target server
 
 ---
 
